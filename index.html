@@ -17,7 +17,7 @@
     </head>
     <body>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('/assets/img/blueberry_grapes_comparisons.png');background-size:contain">
+        <header class="masthead" style="background-image: url('/assets/img/blueberry_grapes_comparisons_1.png');background-size:contain">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
@@ -48,7 +48,7 @@
                         <p>There are various sources online where dataset can be obtained. As a general feeling, the author could feel that the data was already curated and structured. In addition to this, the description of this available dataset would contain the questions related to business or real-world applications of how the data could be used - which is basically the whole point of doing this exercise. The dataset for the purpose of this project has been obtained from Statistics Canada website.</p>
 
                         <p>
-                            <img class="img-fluid border" src="/assets/img/canada-stat-svg.svg" alt="canada logo" />
+                            <img class="img-fluid border" src="/assets/img/canada-stat-svg_1.svg" alt="canada logo" />
                             <span class="caption text-muted">Statistics Canada logo for those who don't know</span>
                         </p>
 
@@ -106,7 +106,7 @@
                         
                         
                         <p>
-                            <img class="img-fluid border" src="/assets/img/geo_commodity_ascending_portion.png" alt="marketed production" />
+                            <img class="img-fluid border" src="/assets/img/geo_commodity_ascending_portion_1.png" alt="marketed production" />
                             <span class="caption text-muted">marketed production value (in kg)</span>
                         </p>
 
@@ -120,7 +120,7 @@
                         <blockquote class="blockquote">NOTE: As there are different commodities in this dataset, it makes sense to select a few for comparison and move ahead with them. Here, we have picked blueberries and grapes.</blockquote>
 
                         <p>
-                            <img class="img-fluid border" src="/assets/img/blueberry_grapes_comparisons.png" alt="commodity comparisons" />
+                            <img class="img-fluid border" src="/assets/img/blueberry_grapes_comparisons_1.png" alt="commodity comparisons" />
                         </p>
 
                         <p>From the plots above, we see that there is a drastic difference in the price (<b>$</b>), production (<b>kg</b>), and cultivation (<b>acre</b>) values, for the picked commodities (blueberries and grapes in this case).
@@ -152,7 +152,7 @@
                         <p>After training the model, we can access its properties and methods to understand the relations between X and y, and also predict y using an unknown X. This becomes clear on observing the following bar plot. Here, we simply plot using <code>plt.barh(X.columns,model.coef_)</code>. The <code>columns</code> property is a collection of columns from X, and the <code>coef_</code> property is a collection of values that signify how strongly (or weakly) a given column relates to y.</p>
 
                         <p>
-                            <img class="img-fluid border" src="/assets/img/model_columns_coeffs.png" alt="model coefficients" />
+                            <img class="img-fluid border" src="/assets/img/model_columns_coeffs_1.png" alt="model coefficients" />
                             <span class="caption text-muted">plot of column names and the corresponding coefficients</span>
                         </p>
                         
@@ -202,7 +202,7 @@
                         
                         <p>Finally, as shown in the screenshot below, we call the <code>predict</code> method on our linear model to obtain the result. To visualize, we use the <code>plot</code> function.</p>
                         <p>
-                            <img class="img-fluid border" src="/assets/img/plot_result.png" alt="price plot" />
+                            <img class="img-fluid border" src="/assets/img/plot_result_1.png" alt="price plot" />
                             <span class="caption text-muted">using predict, 'y' is the blueberry price in 2025</span>
                         </p>
                         <p>The plot we see above contains the price values along the y-axis. The x-axis contains the province names as labels, where, the label for Canada is used to show the average price value on the plot, and how the other provinces compare against it, in terms of the price.</p>
@@ -282,13 +282,13 @@
                         <h4>quarts and bushels</h4>
                         <p>To plot the price, production, and cultivation values, corresponding dataframe had to be selected from the dataset. For the production plot, the data selected only comprises of tons, metric tonnes, and pounds. The quarts and bushels values were left out. This was because the conversion methods described online to convert from quarts and bushels to kg had some discrepancy in their calculation.</p>
                         <p>
-                            <img class="img-fluid border" src="/assets/img/area_produce_value_piechart.png" alt="..." />
+                            <img class="img-fluid border" src="/assets/img/area_produce_value_piechart_1.png" alt="plot with values" />
                             <span class="caption text-muted">plot with proportion of values</span>
                         </p>
                         <h4>farm gate value and other estimates</h4>
                         <p>The data selected for plot left out some estimates such as farm gate value, and bearing area. These values can be added to the plots, and might be used to address other questions. Farm gate value, for example, is the price a farmer first gets paid for the commodity, and is completely separate from the value at which the commodity gets sold in the market.</p>
                         <p>
-                            <img class="img-fluid border" src="/assets/img/estimates_piechart.png" alt="plot with estimates" />
+                            <img class="img-fluid border" src="/assets/img/estimates_piechart_1.png" alt="plot with estimates" />
                             <span class="caption text-muted">plot with proportion for price, production, and cultivation</span>
                         </p>
                     </div>
