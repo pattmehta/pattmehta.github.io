@@ -212,7 +212,7 @@
 
                         <!--  heading  -->
                         <h2 class="section-heading">Areas for Improvement</h2>
-                        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine.</p>
+                        <p>This is an extra section that explores certain areas in the data gathering stage. If taken into consideration, we can have more data at our disposal. It also explains that we should use updated values.</p>
                         <h4>year of reference</h4>
                         <p>The max value for the REF_DATE column in the dataset is very low (1981) as seen previously in the plot. This could cause problems, as REF_DATE is not relevant, and we want to predict the latest prices of the commodity. At the moment, however, the prediction for the price seems to be working fine in terms of the linear relation. In a nutshell, we should query the dataset before we create the model, to ensure that the values of interest meet the expectations. Otherwise the result that we obtain might not be relevant.</p>
                         <table class="table table-striped table-bordered table-hover table-sm">
@@ -301,7 +301,7 @@
                         </ol>
 
                         <h4>How to Begin</h4>
-                        <p>We start by cleaning our data. After cleaning our data, we need to select the relevant attributes (i.e. columns) in the data. The section <code>Using Groups Effectively</code> takes the first steps in building some level of understanding of the data. By grouping attributes and then sorting (in ascending or descending manner) by production value it becomes obvious that the production of commodities varies with the province. Although the blog post omits technical details, for an overview of what happens behind the scenes - we are grouping our data and taking the mean of its values and then sorting in a descending order.</p>
+                        <p>We start by cleaning our data. After cleaning our data, we need to select the relevant attributes (i.e. columns) in the data. The first section <code>1. Are there certain commodities preferred over others</code> takes the first steps in building some level of understanding of the data. By grouping attributes and then sorting (in ascending or descending manner) by production value it becomes obvious that the production of commodities varies with the province. Although the blog post omits technical details, for an overview of what happens behind the scenes - we are grouping our data and taking the mean of its values and then sorting in a descending order.</p>
 
                         <p>At this stage we can only see that the distribution varies as a group, but looking more closely at the plot <code>marketed production value (in kg)</code> we see that only two commodities exist at the top five, so we choose them for further analysis. One thing to keep in mind here is that our dataset is our source of truth. So, after each step of analysis we should not stop and check the results from other online sources to confirm any inference that we are trying to reach. Rather, as a data scientist we need to follow towards the end of our evaulation, and then discuss the final results with peers.</p>
 
